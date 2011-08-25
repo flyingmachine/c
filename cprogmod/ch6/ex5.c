@@ -3,7 +3,7 @@
 
 main()
 {
-  int to_reverse, chopped, power = 0;
+  int to_reverse, chopped;
 
   printf("Enter a number: ");
   scanf("%d", &to_reverse);
