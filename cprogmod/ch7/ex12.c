@@ -17,14 +17,19 @@ main()
     }
     scanf("%f", &right_operand);
 
-    if (operator == '+') {
-      left_operand += right_operand;
-    } else if (operator == '-') {
-      left_operand -= right_operand;
-    } else if (operator == '*') {
-      left_operand *= right_operand;
-    } else if (operator == '/') {
-      left_operand /= right_operand;
+    switch (operator) {
+      case '+':
+        left_operand += right_operand;
+        break;
+      case '-':
+        left_operand -= right_operand;
+        break;
+      case '*':
+        left_operand *= right_operand;
+        break;
+      case '/':
+        left_operand /= right_operand;
+        break;
     }
   }
   
