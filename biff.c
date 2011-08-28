@@ -10,12 +10,9 @@ int main (void) {
     size++;
   }
   
-  for(i = 0; i < size; i++)
-    message[i] = toupper(message[i]);
-  
-  
   printf("In B1FF-speak: ");
   for(i = 0; i < size; i++) {
+    message[i] = toupper(message[i]);
     switch (message[i]) {
       case 'A':
         printf("4");
