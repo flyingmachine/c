@@ -25,8 +25,7 @@ int main(int argc, char *argv[]) {
     for (j = 0; j < NUM_PLANETS; j++) {
       strcpy(input, argv[i]);
       
-      // for (k = 0; k < INPUT_SIZE; k++) {
-      for (k = 0; input[k]; k++) {
+      for (k = 0; k < INPUT_SIZE && input[k]; k++) {
         input[k] = tolower(input[k]);
       }
       
