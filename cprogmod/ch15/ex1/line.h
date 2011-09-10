@@ -5,7 +5,7 @@ void clear_line(void);
 
 void add_word(const char *word);
 
-int space_remainin(void);
+int space_remaining(void);
 
 void write_line(void);
 
