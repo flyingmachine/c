@@ -25,6 +25,7 @@ int main(int argc, char *argv[]) {
     for (j = 0; j < NUM_PLANETS; j++) {
       strcpy(input, argv[i]);
       
+      // Is k < INPUT_SIZE necessary?
       for (k = 0; k < INPUT_SIZE && input[k]; k++) {
         input[k] = tolower(input[k]);
       }
