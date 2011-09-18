@@ -68,7 +68,6 @@ void populate_position_sequences(int *position_sequences[]) {
 void print_position_sequences(int *position_sequences[]) {
   int i, j;
   for (i = 0; i < NUM_COMBINATIONS; i++) {
-    printf("Combo %d: ", i + 1);
     for (j = 0; j < NUM_POSITIONS; j++)
       printf("%d ", position_combinations[i][j] + 1);
     printf("\n");
