@@ -17,8 +17,6 @@ int main(void) {
       return 0;
     }
     
-    if (word_len > MAX_WORD_LENGTH)
-      word[MAX_WORD_LENGTH] = '*';
     if (word_len + 1 > space_remaining()) {
       write_line();
       clear_line();;
